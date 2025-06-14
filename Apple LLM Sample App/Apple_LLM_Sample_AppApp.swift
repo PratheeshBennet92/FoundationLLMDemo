@@ -25,7 +25,7 @@ struct Apple_LLM_Sample_AppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LLMDemoView()
         }
         .modelContainer(sharedModelContainer)
     }
